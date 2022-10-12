@@ -1,0 +1,19 @@
+#search:
+-
+  by: "xpath"
+  locator: "//*[@resource-id='com.xueqiu.android:id/action_search']"
+  action: click
+-
+  by: "xpath"
+  locator: "//*[@resource-id='com.xueqiu.android:id/search_input_text']"
+  action: send
+  value: "海康"
+-
+  by: "xpath"
+  locator: "//*[@text='SZ002415']"
+  action: click
+
+#main:
+#  - by: "xpath"
+#    locator: "//*[@resource-id='android:id/tabs']//*[@text='基金']"
+#    action: click

@@ -1,0 +1,4 @@
+ -
+  by: "xpath"
+  locator: "//*[@resource-id='android:id/tabs']//*[@text='基金']"
+  action: click
